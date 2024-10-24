@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/output.css" />
+    <title>BWA Challenge</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav
+      class="bg-transparent absolute top-0 left-0 w-full flex items-center px-20"
+    >
+      <div class="container">
+        <div class="flex items-center justify-between relative py-5">
+          <!-- logo -->
+          <a href="#" class="flex-shrink-0 text-[32px] font-bold text-navyBlue">
+            Bank<span class="text-mainBlue">Mo</span>
+          </a>
+
+          <!-- menu -->
+          <div class="w-[382px] h-[24px] flex-shrink-0 ml-20">
+            <ul class="flex space-x-[40px]">
+              <li class="group nav-item">
+                <a
+                  href="#hero"
+                  class="text-navyBlue text-[16px] group-hover:text-darkGray transition duration-500 ease-in-out relative"
+                  >Features</a
+                >
+              </li>
+              <li class="group nav-item">
+                <a
+                  href="#brands"
+                  class="text-navyBlue text-[16px] group-hover:text-darkGray transition duration-500 ease-in-out relative"
+                  >Pricing</a
+                >
+              </li>
+              <li class="group nav-item">
+                <a
+                  href="#why-choose-us"
+                  class="text-navyBlue text-[16px] group-hover:text-darkGray transition duration-500 ease-in-out relative"
+                  >Showcase</a
+                >
+              </li>
+              <li class="group nav-item">
+                <a
+                  href="#testimoni"
+                  class="text-navyBlue text-[16px] group-hover:text-darkGray transition duration-500 ease-in-out relative"
+                  >Teams</a
+                >
+              </li>
+            </ul>
+            <div id="underline"></div>
+          </div>
+
+          <!-- button -->
+          <div class="flex-shrink-0 ml-auto space-x-3">
+            <a
+              href="#"
+              class="px-7 py-3 border-[1px] border-darkBlue_1 rounded-full text-[16px] hover:bg-slate-100 transtion duration-300 active:bg-slate-400"
+              >My Account</a
+            >
+            <a
+              href="#"
+              class="px-7 py-3 bg-mainBlue text-white rounded-full text-[16px] hover:bg-darkBlueHover transition duration-300 active:bg-darkBlueActive"
+              >Sign Up</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar -->
+
+    <!-- hero -->
+    <section id="hero">
+      <div class="container px-6 pt-20">
+        <div class="flex">
+          <!-- col left -->
+          <div class="p-20">
+            <div class="pt-20 w-[462px] h-[332px]">
+              <h1 class="font-bold text-[46px]">
+                Protect Your Money Securely With Us.
+              </h1>
+
+              <p class="text-[16px] text-mainGray pt-5">
+                Keep your company cashflow better and grow the business would be
+                better integrated systems.
+              </p>
+
+              <div class="pt-16">
+                <a
+                  href="#"
+                  class="bg-mainBlue text-white px-8 py-5 rounded-full font-semibold text-[20px] hover:bg-darkBlueHover active:bg-darkBlueActive transition duration-300"
+                  >Protect My Money</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- col right -->
+          <div class="p-20">
+            <div class="relative">
+              <div class="w-[680px] h-[520px]">
+                <img
+                  class="rounded-3xl"
+                  src="src/img/hero-image.webp"
+                  alt="Image 1"
+                  width="680"
+                  height="520"
+                />
+              </div>
+              <div
+                class="bg-white flex absolute -bottom-6 left-1/2 -translate-x-1/2 w-[465px] h-[50px] px-8 py-4 font-semibold text-[16px] text-center rounded-full"
+              >
+                <span class="mr-3">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M22 11.08V12C21.9988 14.1564 21.3005 16.2547 20.0093 17.9818C18.7182 19.709 16.9033 20.9725 14.8354 21.5839C12.7674 22.1953 10.5573 22.1219 8.53447 21.3746C6.51168 20.6273 4.78465 19.2461 3.61096 17.4371C2.43727 15.628 1.87979 13.4881 2.02168 11.3363C2.16356 9.18457 2.99721 7.13633 4.39828 5.49707C5.79935 3.85782 7.69279 2.71538 9.79619 2.24015C11.8996 1.76491 14.1003 1.98234 16.07 2.86"
+                      stroke="#0E45FF"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M22 4L12 14.01L9 11.01"
+                      stroke="#0E45FF"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    /></svg
+                ></span>
+                The most trusted system in the global world
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero end -->
+
+    <!-- brand logo -->
+    <section id="brands">
+      <div class="container px-36 py-[100px] flex justify-center">
+        <div class="flex w-[1034.35px] h-[61] space-x-[93px] justify-center">
+          <!-- 1st logo -->
+          <div>
+            <img
+              src="src/img/brands/brand_1.webp"
+              alt="Brand 1"
+              width="212.17"
+              height="61"
+            />
+          </div>
+
+          <!-- 2nd logo -->
+          <div>
+            <img
+              src="src/img/brands/brand_2.webp"
+              alt="Brand 2"
+              width="177.7"
+              height="45.09"
+            />
+          </div>
+
+          <!-- 3rd logo -->
+          <div>
+            <img
+              src="src/img/brands/brand_3.webp"
+              alt="Brand 3"
+              width="164.43"
+              height="42.43"
+            />
+          </div>
+
+          <!-- 4th logo -->
+          <div>
+            <img
+              class="mt-[8px]"
+              src="src/img/brands/brand_4.webp"
+              alt="Brand 4"
+              width="201.75"
+              height="25.2"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- brand logo end -->
+
+    <!-- why choose us -->
+    <section id="why-choose-us">
+      <div class="container w-full h-[580px] px-36 py-24 bg-darkBlue">
+        <!-- title & subtitle -->
+        <h3 class="font-semibold text-center text-[32px] text-white">
+          Why Choose Us
+        </h3>
+
+        <div class="flex justify-center my-[45px]">
+          <div class="w-[367px] h-[64px] text-center text-darkGray">
+            Reasonable option for growing your company and working more
+            automatically with us
+          </div>
+        </div>
+
+        <!-- cards -->
+        <div class="flex justify-center">
+          <div class="w-[876px] h-[178px] flex space-x-[90px]">
+            <!-- 1st card -->
+            <div class="w-[232px] h-[178px]">
+              <div class="w-[60px] h-[60px] bg-mainBlue rounded-full">
+                <span class="flex justify-center items-center w-full h-full">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                      stroke="white"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M2 12H22"
+                      stroke="white"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M12 2C14.5013 4.73835 15.9228 8.29203 16 12C15.9228 15.708 14.5013 19.2616 12 22C9.49872 19.2616 8.07725 15.708 8 12C8.07725 8.29203 9.49872 4.73835 12 2V2Z"
+                      stroke="white"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <div class="font-medium text-[20px] mt-5 text-white">
+                Biggest Database
+              </div>
+              <div class="text-[16px] mt-3 text-darkGray">
+                Access customer data to make business choice
+              </div>
+            </div>
+
+            <!-- 2nd card -->
+            <div class="w-[232px] h-[178px]">
+              <div class="w-[60px] h-[60px] bg-mainBlue rounded-full">
+                <span class="flex justify-center items-center w-full h-full">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_2_105)">
+                      <path
+                        d="M8 17L12 21L16 17"
+                        stroke="white"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M12 12V21"
+                        stroke="white"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M20.8801 18.09C21.7494 17.4786 22.4014 16.6061 22.7413 15.5991C23.0813 14.5921 23.0915 13.503 22.7705 12.4898C22.4494 11.4766 21.8139 10.5921 20.9561 9.96456C20.0983 9.33703 19.0629 8.99916 18.0001 8.99999H16.7401C16.4393 7.82787 15.8765 6.73924 15.0942 5.81607C14.3118 4.89291 13.3302 4.15925 12.2233 3.67035C11.1163 3.18144 9.9129 2.95002 8.70358 2.99351C7.49426 3.037 6.31057 3.35426 5.24161 3.92142C4.17265 4.48858 3.24628 5.29084 2.53224 6.26782C1.81821 7.2448 1.33511 8.37104 1.11932 9.56174C0.903525 10.7524 0.960665 11.9766 1.28643 13.142C1.6122 14.3074 2.19811 15.3838 3.00005 16.29"
+                        stroke="white"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_2_105">
+                        <rect width="24" height="24" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </span>
+              </div>
+              <div class="font-medium text-[20px] mt-5 text-white">
+                Offline Docs
+              </div>
+              <div class="text-[16px] mt-3 text-darkGray">
+                No need Internet connection to get the latest report
+              </div>
+            </div>
+
+            <!-- 3rd card -->
+            <div class="w-[232px] h-[178px]">
+              <div class="w-[60px] h-[60px] bg-mainBlue rounded-full">
+                <span class="flex justify-center items-center w-full h-full">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M21 12C21 13.66 17 15 12 15C7 15 3 13.66 3 12"
+                      stroke="white"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M12 8C16.9706 8 21 6.65685 21 5C21 3.34315 16.9706 2 12 2C7.02944 2 3 3.34315 3 5C3 6.65685 7.02944 8 12 8Z"
+                      stroke="white"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M3 5V19C3 20.66 7 22 12 22C17 22 21 20.66 21 19V5"
+                      stroke="white"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <div class="font-medium text-[20px] mt-5 text-white">
+                Most Secure
+              </div>
+              <div class="text-[16px] mt-3 text-darkGray">
+                We ensure that every single database would be safe
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- why choose us end -->
+
+    <!-- testimoni -->
+    <section id="testimoni">
+      <div class="container w-full py-16 px-20">
+        <div class="flex w-full">
+          <!-- left arrow -->
+          <div class="w-[10%] flex justify-center items-center">
+            <span>
+              <svg
+                class="cursor-pointer hover:fill-slate-100 transition duration-500 active:fill-slate-400"
+                width="50"
+                height="50"
+                viewBox="0 0 50 50"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="25"
+                  cy="25"
+                  r="24.5"
+                  transform="rotate(-180 25 25)"
+                  stroke="#78839E"
+                />
+                <path
+                  d="M28 19L22 25L28 31"
+                  stroke="#78839E"
+                  stroke-width="1.2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+          </div>
+
+          <!-- content -->
+          <div class="flex-col w-[80%]">
+            <!-- rating -->
+            <div class="flex justify-center">
+              <div class="flex space-x-[10px] w-[160px] h-[24px]">
+                <div>
+                  <svg
+                    width="20"
+                    height="19"
+                    viewBox="0 0 20 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.04894 0.927052C9.3483 0.00574112 10.6517 0.00573993 10.9511 0.927051L12.4697 5.60081C12.6035 6.01284 12.9875 6.2918 13.4207 6.2918H18.335C19.3037 6.2918 19.7065 7.53141 18.9228 8.10081L14.947 10.9894C14.5966 11.244 14.4499 11.6954 14.5838 12.1074L16.1024 16.7812C16.4017 17.7025 15.3472 18.4686 14.5635 17.8992L10.5878 15.0106C10.2373 14.756 9.7627 14.756 9.41221 15.0106L5.43648 17.8992C4.65276 18.4686 3.59828 17.7025 3.89763 16.7812L5.41623 12.1074C5.55011 11.6954 5.40345 11.244 5.05296 10.9894L1.07722 8.10081C0.293507 7.53141 0.696283 6.2918 1.66501 6.2918H6.57929C7.01252 6.2918 7.39647 6.01284 7.53035 5.60081L9.04894 0.927052Z"
+                      fill="#F74D00"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <svg
+                    width="20"
+                    height="19"
+                    viewBox="0 0 20 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.04894 0.927052C9.3483 0.00574112 10.6517 0.00573993 10.9511 0.927051L12.4697 5.60081C12.6035 6.01284 12.9875 6.2918 13.4207 6.2918H18.335C19.3037 6.2918 19.7065 7.53141 18.9228 8.10081L14.947 10.9894C14.5966 11.244 14.4499 11.6954 14.5838 12.1074L16.1024 16.7812C16.4017 17.7025 15.3472 18.4686 14.5635 17.8992L10.5878 15.0106C10.2373 14.756 9.7627 14.756 9.41221 15.0106L5.43648 17.8992C4.65276 18.4686 3.59828 17.7025 3.89763 16.7812L5.41623 12.1074C5.55011 11.6954 5.40345 11.244 5.05296 10.9894L1.07722 8.10081C0.293507 7.53141 0.696283 6.2918 1.66501 6.2918H6.57929C7.01252 6.2918 7.39647 6.01284 7.53035 5.60081L9.04894 0.927052Z"
+                      fill="#F74D00"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <svg
+                    width="20"
+                    height="19"
+                    viewBox="0 0 20 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.04894 0.927052C9.3483 0.00574112 10.6517 0.00573993 10.9511 0.927051L12.4697 5.60081C12.6035 6.01284 12.9875 6.2918 13.4207 6.2918H18.335C19.3037 6.2918 19.7065 7.53141 18.9228 8.10081L14.947 10.9894C14.5966 11.244 14.4499 11.6954 14.5838 12.1074L16.1024 16.7812C16.4017 17.7025 15.3472 18.4686 14.5635 17.8992L10.5878 15.0106C10.2373 14.756 9.7627 14.756 9.41221 15.0106L5.43648 17.8992C4.65276 18.4686 3.59828 17.7025 3.89763 16.7812L5.41623 12.1074C5.55011 11.6954 5.40345 11.244 5.05296 10.9894L1.07722 8.10081C0.293507 7.53141 0.696283 6.2918 1.66501 6.2918H6.57929C7.01252 6.2918 7.39647 6.01284 7.53035 5.60081L9.04894 0.927052Z"
+                      fill="#F74D00"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <svg
+                    width="20"
+                    height="19"
+                    viewBox="0 0 20 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.04894 0.927052C9.3483 0.00574112 10.6517 0.00573993 10.9511 0.927051L12.4697 5.60081C12.6035 6.01284 12.9875 6.2918 13.4207 6.2918H18.335C19.3037 6.2918 19.7065 7.53141 18.9228 8.10081L14.947 10.9894C14.5966 11.244 14.4499 11.6954 14.5838 12.1074L16.1024 16.7812C16.4017 17.7025 15.3472 18.4686 14.5635 17.8992L10.5878 15.0106C10.2373 14.756 9.7627 14.756 9.41221 15.0106L5.43648 17.8992C4.65276 18.4686 3.59828 17.7025 3.89763 16.7812L5.41623 12.1074C5.55011 11.6954 5.40345 11.244 5.05296 10.9894L1.07722 8.10081C0.293507 7.53141 0.696283 6.2918 1.66501 6.2918H6.57929C7.01252 6.2918 7.39647 6.01284 7.53035 5.60081L9.04894 0.927052Z"
+                      fill="#F74D00"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <!-- testimoni -->
+            <div class="flex justify-center py-[30px]">
+              <div class="w-[729px] h-[210px] text-center text-[40px] relative">
+                It was such as a great choice to invest in the
+                <span class="font-semibold">reliable systems</span> that BankMo
+                has provide for me.
+                <div
+                  class="absolute quote-svg-background -top-6 -left-16 -z-10"
+                ></div>
+              </div>
+            </div>
+
+            <!-- client info -->
+            <div class="flex justify-center">
+              <div class="w-[240px] h-[80px]">
+                <div class="flex">
+                  <!-- display picture -->
+                  <div class="">
+                    <div
+                      class="w-[80px] h-[80px] border-[1px] border-mainGray flex justify-center items-center rounded-full"
+                    >
+                      <img
+                        src="src/img/testimoni/client_1.webp"
+                        alt="Client 1"
+                        class="rounded-full"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="flex flex-col justify-center px-3">
+                    <div class="font-medium text-[20px] text-navyBlue">
+                      Amanda
+                    </div>
+                    <div class="text-darkGray text-[16px]">
+                      Sr Credit Analyst
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- right arrow -->
+          <div class="w-[10%] flex justify-center items-center">
+            <span>
+              <svg
+                class="cursor-pointer hover:fill-slate-100 transition duration-500 active:fill-slate-400"
+                width="50"
+                height="50"
+                viewBox="0 0 50 50"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="25" cy="25" r="24.5" stroke="#78839E" />
+                <path
+                  d="M22 31L28 25L22 19"
+                  stroke="#78839E"
+                  stroke-width="1.2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimoni end -->
+
+    <script src="src/js/script.js"></script>
+  </body>
+</html>
